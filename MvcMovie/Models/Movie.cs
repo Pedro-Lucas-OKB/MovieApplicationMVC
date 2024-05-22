@@ -16,4 +16,6 @@ public class Movie
 
     [DataType(DataType.Currency)]
     public decimal Price { get; set; } = default;
+
+    public string? Rating { get; set;} = default;
 }

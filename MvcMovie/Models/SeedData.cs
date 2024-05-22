@@ -21,21 +21,24 @@ public static class SeedData
                     Title = "Forrest Gump",
                     ReleaseDate = DateTime.Parse("1994-12-07"),
                     Genre = "Drama",
-                    Price = 5.99m
+                    Price = 5.99m,
+                    Rating = "R"
                 },
 
                 new Movie {
                     Title = "Inglourious Basterds",
                     ReleaseDate = DateTime.Parse("2009-08-21"),
                     Genre = "Drama, Action",
-                    Price = 7.99m
+                    Price = 7.99m,
+                    Rating = "R"
                 },
 
                 new Movie {
                     Title = "Captain America: The Winter Soldier",
                     ReleaseDate = DateTime.Parse("2014-03-13"),
                     Genre = "Action",
-                    Price = 9.99m
+                    Price = 9.99m,
+                    Rating = "R"
                 }
             );
 
